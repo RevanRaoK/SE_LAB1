@@ -11,7 +11,7 @@
 
   <name>StudentAttendanceManagementSystem Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>http://localhost:8081/StudentAttendanceManagementSystem/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -26,12 +26,24 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
-   <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
 	<dependency>
-    	<groupId>javax.servlet</groupId>
-    	<artifactId>javax.servlet-api</artifactId>
-    	<version>3.0.1</version>
-    	<scope>provided</scope>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>2.0.17</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-web</artifactId>
+	    <version>4.0.0-M1</version>
+	</dependency>
+  <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+	<dependency>
+	    <groupId>javax.servlet</groupId>
+	    <artifactId>javax.servlet-api</artifactId>
+	    <version>4.0.1</version>
+	    <scope>provided</scope>
 	</dependency>
   </dependencies>
 
