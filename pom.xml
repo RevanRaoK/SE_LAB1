@@ -20,18 +20,18 @@
   </properties>
 
   <dependencies>
-    <dependencies>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.13.1</version>
       <scope>test</scope>
-    </dependencies>
-    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    </dependency>
+   <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
 	<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>java.servlet-api</artifactId>
-    <version>4.0.1<version>
-    <scope>provided</scope>
+    	<groupId>javax.servlet</groupId>
+    	<artifactId>javax.servlet-api</artifactId>
+    	<version>3.0.1</version>
+    	<scope>provided</scope>
 	</dependency>
   </dependencies>
 
